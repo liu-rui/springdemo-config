@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: user-v1
+  devtools:
+    restart:
+      exclude:
+server:
+  port: 8091
+restApi:
+  swagger:
+    title: springdemo-用户webapi
+    version: 1
+    description: 用户webapi!!!!
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
